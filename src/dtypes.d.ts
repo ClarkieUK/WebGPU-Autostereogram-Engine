@@ -1,0 +1,1 @@
+declare module "https://muigui.org/dist/0.x/muigui.module.js"

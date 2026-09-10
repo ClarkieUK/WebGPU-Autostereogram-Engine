@@ -1,0 +1,26 @@
+{
+  "name": "typescript-webgpu",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run install-missing-dependencies && npm run server",
+    "install-missing-dependencies": "npm i",
+    "server": "npx vite",
+    "build": "npx vite build",
+    "preview": "npx vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@webgpu/types": "^0.1.71",
+    "typescript": "^7.0.2",
+    "vite": "^8.1.4"
+  },
+  "dependencies": {
+    "wgpu-matrix": "^3.4.2"
+  }
+}
